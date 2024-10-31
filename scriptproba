@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz o Stolicach Europy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz o Stolicach Europy</h1>
+        <div id="country-info">
+            <img id="flag" src="" alt="Flaga kraju">
+            <p id="country-name">Kraj: </p>
+        </div>
+        <div id="quiz">
+            <input type="text" id="capital-input" placeholder="Podaj nazwę stolicy" />
+            <button id="check-btn">Sprawdź</button>
+        </div>
+        <p id="result"></p>
+        <p id="score">Punkty: 0</p>
+        <p id="chances">Pozostałe szanse: 5</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
